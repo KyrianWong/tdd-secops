@@ -1,0 +1,20 @@
+[
+  {
+    "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "2025-02-24T14:25:02.2057707Z",
+    "Source": "Microsoft-Windows-Sysmon",
+    "EventLog": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "dc1-mon",
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "ParameterXml": "<Param>-</Param><Param>2025-02-24 14:25:02.199</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1234</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>10.0.19041.1234</Param><Param>Windows PowerShell</Param><Param>Microsoft® Windows® Operating System</Param><Param>Microsoft Corporation</Param><Param>PowerShell.EXE</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Host `a`b %PATH% ^^^\"</Param><Param>C:\\Users\\user\\AppData\\Local\\Temp</Param><Param>DESKTOP-ABC123\\user</Param><Param>{3d7a6f6f-804b-67bc-e703-000000000000}</Param><Param>0x12345</Param><Param>1</Param><Param>Medium</Param><Param>MD5=ABC123...,SHA256=DEF456...,IMPHASH=789XYZ...</Param><Param>{00000000-0000-0000-0000-000000000000}</Param><Param>5678</Param><Param>C:\\Windows\\explorer.exe</Param><Param>explorer.exe</Param><Param>DESKTOP-ABC123\\user</Param>",
+    "EventData": "<DataItem Type=\"System.XmlData\" time=\"2025-02-24T14:25:02.205770700Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2025-02-24 14:25:02.199</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ProcessId\">1234</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">10.0.19041.1234</Data><Data Name=\"Description\">Windows PowerShell</Data><Data Name=\"Product\">Microsoft® Windows® Operating System</Data><Data Name=\"Company\">Microsoft Corporation</Data><Data Name=\"OriginalFileName\">PowerShell.EXE</Data><Data Name=\"CommandLine\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Host `a`b %PATH% ^^^\"</Data><Data Name=\"CurrentDirectory\">C:\\Users\\user\\AppData\\Local\\Temp</Data><Data Name=\"User\">DESKTOP-ABC123\\user</Data><Data Name=\"LogonGuid\">{3d7a6f6f-804b-67bc-e703-000000000000}</Data><Data Name=\"LogonId\">0x12345</Data><Data Name=\"TerminalSessionId\">1</Data><Data Name=\"IntegrityLevel\">Medium</Data><Data Name=\"Hashes\">MD5=ABC123...,SHA256=DEF456...,IMPHASH=789XYZ...</Data><Data Name=\"ParentProcessGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"ParentProcessId\">5678</Data><Data Name=\"ParentImage\">C:\\Windows\\explorer.exe</Data><Data Name=\"ParentCommandLine\">explorer.exe</Data><Data Name=\"ParentUser\">DESKTOP-ABC123\\user</Data></EventData></DataItem>",
+    "EventID": 1,
+    "RenderedDescription": "Process Create: ... CommandLine: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Host `a`b %PATH% ^^^\" ...",
+    "EventCategory": 1,
+    "UserName": "S-1-5-18",
+    "Type": "Event",
+    "_ResourceId": "/subscriptions/562db19c-f304-45df-8cc6-e93f7daed8cb/resourcegroups/purplecloud-00o69/providers/microsoft.compute/virtualmachines/dc1"
+  }
+]
